@@ -56,7 +56,7 @@
                     <td colspan="2">
                         <input type="submit" name="tipoAcceso" value="Acceder" class="btn intro font-rubik">
                         &nbsp;<input hidden="1" value="carrito" name="origen">
-                        <input type="button" name="tipoAcceso" value="Registrarse" class="btn intro font-rubik" onclick='Cargar("../html/registro.jsp","cuerpo")'>
+                        <input type="button" name="tipoAcceso" value="Registrarse" class="btn intro font-rubik" onclick='Cargar("registro.jsp","cuerpo")'>
                     </td>
                 </tr>
             </table>
