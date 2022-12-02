@@ -38,8 +38,8 @@
                                  <td colspan="3"><hr class="hr-gris"></td>
                             </tr>
                             <tr class="centro">
-                                <td><input type="button" value="Cambiar datos" class="btn intro" onclick='Cargar("../html/cambiar.jsp","cuerpo")'></td>
-                                <td><input type="button" value="Gestionar pedidos" class="btn intro" onclick='Cargar("../html/pedidos.jsp","cuerpo")'></td>
+                                <td><input type="button" value="Cambiar datos" class="btn intro" onclick='Cargar("cambiar.jsp","cuerpo")'></td>
+                                <td><input type="button" value="Gestionar pedidos" class="btn intro" onclick='Cargar("pedidos.jsp","cuerpo")'></td>
                                 <td><input type="button" value="Cerrar sesión" class="btn intro" onclick='Cargar("../CerrarSesion","cuerpo")'></td>
                                 <!--Cargar("../html/loginPerfil.jsp","cuerpo")-->
                             </tr>
