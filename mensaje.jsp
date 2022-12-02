@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
         <title>&nbsp;</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +39,7 @@
                 <br>
                 <table class="tabla-espacio centrar-tabla">
                     <tr>
-                        <td><input type="submit" value="Volver" class="btn intro" onclick="Cargar('../html/usuario2.jsp','cuerpo')"></td>
+                        <td><input type="submit" value="Volver" class="btn intro" onclick="Cargar('html/usuario2.jsp','cuerpo')"></td>
                     </tr>
                 </table>
             </div>

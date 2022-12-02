@@ -56,7 +56,7 @@
                             <%
                             if(existencias > 0){
                             %>
-                            <input type="button" value="Añadir al carrito" class="btn intro" onclick="anyadirCarrito(<%=id_producto%>, '<%=nombre%>', <%=precio%>);Cargar('../html/carrito.html', 'cuerpo')">
+                            <input type="button" value="Añadir al carrito" class="btn intro" onclick="anyadirCarrito(<%=id_producto%>, '<%=nombre%>', <%=precio%>);Cargar('html/carrito.html', 'cuerpo')">
                             <%
                             }
                             else{

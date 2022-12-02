@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>&nbsp;</title>
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
         <body>
             <%
@@ -29,7 +29,7 @@
                         <br>
                         <table class="centrar-tabla">
                             <tr class="centro">
-                                <td colspan="3"><img src="../imagenes/usuario.png" alt="usuario" width="150"></td>
+                                <td colspan="3"><img src="imagenes/usuario.png" alt="usuario" width="150"></td>
                             </tr>
                             <tr class="centro">
                                 <td colspan="3">¡Bienvenido, <%=usuarioActual%>! </td>
@@ -51,7 +51,7 @@
         <%
         if(usuarioActual == null){
         %>
-        <script>Cargar("../html/loginPerfil.jsp","cuerpo");</script>
+        <script>Cargar("html/loginPerfil.jsp","cuerpo");</script>
        <% 
         }
         %>           

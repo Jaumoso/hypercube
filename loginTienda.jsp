@@ -68,7 +68,7 @@
             //Si existe un usuario, se mostrará las opciones del apartado del usuario
             
             %>
-            <script>Cargar("../html/carrito.html","cuerpo");</script>
+            <script>Cargar("html/carrito.html","cuerpo");</script>
             <%
             }
             %>
