@@ -41,7 +41,7 @@
                                 <td><input type="button" value="Cambiar datos" class="btn intro" onclick='Cargar("cambiar.jsp","cuerpo")'></td>
                                 <td><input type="button" value="Gestionar pedidos" class="btn intro" onclick='Cargar("pedidos.jsp","cuerpo")'></td>
                                 <td><input type="button" value="Cerrar sesión" class="btn intro" onclick='Cargar("../CerrarSesion","cuerpo")'></td>
-                                <!--Cargar("../html/loginPerfil.jsp","cuerpo")-->
+                                <!--Cargar("loginPerfil.jsp","cuerpo")-->
                             </tr>
                         </table>
                     <br><br>
@@ -51,7 +51,7 @@
         <%
         if(usuarioActual == null){
         %>
-        <script>Cargar("html/loginPerfil.jsp","cuerpo");</script>
+        <script>Cargar("loginPerfil.jsp","cuerpo");</script>
        <% 
         }
         %>           
