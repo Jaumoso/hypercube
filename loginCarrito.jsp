@@ -9,7 +9,7 @@
 <html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 <title>&nbsp;</title>
 </head>
     <body>
@@ -68,7 +68,7 @@
             //Si existe un usuario, se mostrará las opciones del apartado del usuario
             
             %>
-            <script>Cargar("../html/compra.html","cuerpo");</script>
+            <script>Cargar("compra.html","cuerpo");</script>
             <%
             }
             %>
