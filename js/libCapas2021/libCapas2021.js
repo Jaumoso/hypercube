@@ -86,7 +86,7 @@
 			}
       function cargaInicial(){
         Cargar('menu.html','menu');
-        Cargar('inicio.jsp','cuerpo');
+        Cargar('inicio.html','cuerpo');
       }
 			function EnviarCarrito(url,capa, valores){
 				 var contenido = document.getElementById(capa);
